@@ -1,8 +1,9 @@
-import './App.css';
+import './styles/App.css';
+import Home from './pages/Home/Home';
 export default function App() {
   return (
     <>
-      <h1 className="font-expose text-4xl text-center mt-15">Proyecto F1</h1>
+     <Home />
     </>
   )
 }
